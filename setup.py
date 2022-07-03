@@ -6,3 +6,5 @@ os.system("cd && git clone https://github.com/Hackersm9/Termux-Weather")
 os.system("clear")
 os.system("cd Termux-Weather")
 os.system("clear")
+os.system("python3 weather.py")
+
