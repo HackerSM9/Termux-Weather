@@ -1,9 +1,11 @@
-age = int(input("Enter your age: "))
-if (age == 1):
-    print("1")
-    if (age == 2):
-     print("2")
-if (age == 3):
-	print("3")
+import os,sys
+
+cast = int(input("Enter your Choice: "))
+if (cast == 1):
+    os.system("python3 weather.py")
+    if (cast == 2):
+     os.system("python3 weather2.py")
+if (cast == 3):
+	print("Option 3 is in not Available Yet")
 else:
-    print("Wait...")
+    print("Processing...")
