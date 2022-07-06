@@ -26,4 +26,4 @@ if (cast == 2):
 if (cast == 3):
 	print("\033[1;31mOption 3 is not Available Yet\033[0m")
 else:
-    print("Done !")
+    print("\033[1;31mERROR\033[0m")
