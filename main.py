@@ -17,8 +17,8 @@ print(
 ██║░░░░░╚█████╔╝██║░░██║███████╗╚█████╔╝██║░░██║██████╔╝░░░██║░░░
 ╚═╝░░░░░░╚════╝░╚═╝░░╚═╝╚══════╝░╚════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░\033[0m
 ''')
-print("\033[1;32m1) Weather in column\n2) Weather in Bar-Graph\n3) Weather in State (Coming Soon)\033[0m")
-cast = int(input("\033[1;36mEnter your Choice: \033[0m"))
+print("\033[1;32m1) Weather in column\n2) Weather in Bar-Graph\n3) Weather in State (Coming Soon)\n\033[0m")
+cast = int(input("\033[1;36m\nEnter your Choice: \033[0m"))
 if (cast == 1):
     os.system("python3 .weather.py")
 if (cast == 2):
