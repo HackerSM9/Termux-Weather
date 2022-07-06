@@ -1,4 +1,4 @@
 import os,sys
 
-cast = input("\nCity to find Weather Forecast: ")
+cast = input("\n\033[0;35mCity to find Weather Forecast: ")
 os.system("curl wttr.in/{0}".format(cast))
