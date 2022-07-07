@@ -28,7 +28,7 @@ if (cast == 4):
      os.system("python3 about.py")
 if (cast == 5):
      os.system("bash update")
-if (cast == 00)
+if (cast == 00):
      os.system("clear && python3 t.py")
 else:
      print("\033[1;31mERROR Ó╭╮Ò\033[0m")
