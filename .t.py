@@ -35,5 +35,5 @@ print(
 ██████████████████████████████
 \033[0m
 ''')
-print("Thanks for using My (HackerSM9's) Tool !!")
+print("Thanks for using My (HackerSM9's) Tool !!\n")
 
