@@ -25,7 +25,7 @@ if (cast == 2):
 if (cast == 3):
 	print("\033[1;31mOption 3 is not Available Yet\033[0m")
 if (cast == 4):
-     os.system("python3 about.py")
+     os.system("python3 .about.py")
 if (cast == 5):
      os.system("bash update")
 if (cast == 00):
