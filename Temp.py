@@ -31,4 +31,4 @@ if (cast == 5):
 if (cast == 00):
      os.system("clear && python3 .t.py")
 else:
-     print("\033[1;31mERROR \xc3\x93\xe2\x95\xad\xe2\x95\xae\xc3\x92\033[0m")
+     print("\033[1;31mERROR Ó╭╮Ò\033[0m")
