@@ -30,5 +30,7 @@ if (cast == 5):
      os.system("bash update")
 if (cast == 00):
      os.system("clear && python3 .t.py")
+elif (cast >= 5):
+     print("Invalid Option :(")
 else:
-     print("\033[1;31m\033[0m")
+     print("\033[1;46mDone !\033[0m")
