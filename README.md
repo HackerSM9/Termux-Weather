@@ -1,5 +1,13 @@
 # Termux-Weather
 > View Weather in Termux..
+## Installation
+```
+cd $HOME
+pkg install git -y
+git clone https://github.com/HackerSM9/Termux-Weather
+cd Termux-Weather
+python3 setup.py
+ ```
 ### Requirements
 * Termux
 * Python3 
