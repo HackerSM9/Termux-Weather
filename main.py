@@ -20,17 +20,17 @@ print(
 print("\033[1;32m1) Weather in Column\n2) Weather in Bar-Graph\n3) Weather in State (Coming Soon)\n4) About\n5) Upgrade\n\033[0m\033[1;31m00) EXIT\033[0m")
 cast = int(input("\033[1;36m\nEnter your Choice: \033[0m"))
 if (cast == 1):
-     os.system("python3 .weather.py")
+     os.system("cd .src && python3 .weather.py")
 if (cast == 2):
-     os.system("python3 .weather2.py")
+     os.system("cd .src && python3 .weather2.py")
 if (cast == 3):
 	print("\033[1;31mOption 3 is not Available Yet\033[0m")
 if (cast == 4):
-     os.system("python3 .about.py")
+     os.system("cd .src && python3 .about.py")
 if (cast == 5):
      os.system("bash update")
 if (cast == 00):
-     os.system("clear && python3 .t.py")
+     os.system("cd .src && clear &&  python3 .t.py")
 elif (cast >= 5):
      print("Invalid Option :(")
 else:
