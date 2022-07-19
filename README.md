@@ -1,4 +1,4 @@
-# Termux-Weather
+# Termux-Weather 🌤️
 > View Weather in Termux..
 ## Installation
 ```
