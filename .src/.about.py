@@ -1,8 +1,3 @@
-import os,sys
-
-os.system("\x63\x6c\x65\x61\x72")
-os.system("\x74\x6f\x69\x6c\x65\x74\x20\x2d\x46\x20\x67\x61\x79\x20\x48\x61\x63\x6b\x65\x72\x53\x4d\x39")
-print("\x47\x6f\x6f\x67\x6c\x65\x20\x44\x65\x76\x65\x6c\x6f\x70\x65\x72\x20\x41\x63\x63\x6f\x75\x6e\x74\x3a        \033[0;96m\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x2e\x64\x65\x76\x2f\x48\x61\x63\x6b\x65\x72\x53\x4d\x39\x2f\033[0m")
-print("\x47\x69\x74\x48\x75\x62\x20\x41\x63\x63\x6f\x75\x6e\x74\x3a                  \033[0;96m\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x69\x74\x68\x75\x62\x2e\x63\x6f\x6d\x2f\x48\x61\x63\x6b\x65\x72\x53\x4d\x39\x2f\033[0m")
-print("\x57\x65\x62\x73\x69\x74\x65\x3a                         \033[0;96m\x68\x74\x74\x70\x73\x3a\x2f\x2f\x73\x33\x61\x6d\x61\x72\x2e\x6d\x69\x6d\x6f\x2e\x72\x75\x6e\x2f\033[0m")
-print("")
+import base64,codecs
+main = "aW1wb3J0IG9zLHN5cwoKb3Muc3lzdGVtKCJceDYzXHg2Y1x4NjVceDYxXHg3MiIpCm9zLnN5c3RlbSgiXHg3NFx4NmZceDY5XHg2Y1x4NjVceDc0XHgyMFx4MmRceDQ2XHgyMFx4NjdceDYxXHg3OVx4MjBceDQ4XHg2MVx4NjNceDZiXHg2NVx4NzJceDUzXHg0ZFx4MzkiKQpwcmludCgiXHg0N1x4NmZceDZmXHg2N1x4NmNceDY1XHgyMFx4NDRceDY1XHg3Nlx4NjVceDZjXHg2Zlx4NzBceDY1XHg3Mlx4MjBceDQxXHg2M1x4NjNceDZmXHg3NVx4NmVceDc0XHgzYSAgICAgICAgXDAzM1swOzk2bVx4NjhceDc0XHg3NFx4NzBceDczXHgzYVx4MmZceDJmXHg2N1x4MmVceDY0XHg2NVx4NzZceDJmXHg0OFx4NjFceDYzXHg2Ylx4NjVceDcyXHg1M1x4NGRceDM5XHgyZlwwMzNbMG0iKQpwcmludCgiXHg0N1x4NjlceDc0XHg0OFx4NzVceDYyXHgyMFx4NDFceDYzXHg2M1x4NmZceDc1XHg2ZVx4NzRceDNhICAgICAgICAgICAgICAgICAgXDAzM1swOzk2bVx4NjhceDc0XHg3NFx4NzBceDczXHgzYVx4MmZceDJmXHg2N1x4NjlceDc0XHg2OFx4NzVceDYyXHgyZVx4NjNceDZmXHg2ZFx4MmZceDQ4XHg2MVx4NjNceDZiXHg2NVx4NzJceDUzXHg0ZFx4MzlceDJmXDAzM1swbSIpCnByaW50KCJceDU3XHg2NVx4NjJceDczXHg2OVx4NzRceDY1XHgzYSAgICAgICAgICAgICAgICAgICAgICAgICBcMDMzWzA7OTZtXHg2OFx4NzRceDc0XHg3MFx4NzNceDNhXHgyZlx4MmZceDczXHgzM1x4NjFceDZkXHg2MVx4NzJceDJlXHg2ZFx4NjlceDZkXHg2Zlx4MmVceDcyXHg3NVx4NmVceDJmXDAzM1swbSIpCnByaW50KCIgIik="
+magic = eval(compile(base64.b64decode(eval('\x6d\x61\x69\x6e')),'\x3c\x73\x74\x72\x69\x6e\x67\x3e','\x65\x78\x65\x63'))
