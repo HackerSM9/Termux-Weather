@@ -1,10 +1,3 @@
-import os,sys
-
-os.system("clear")
-os.system("pkg install git curl python3 -y ")
-os.system("\x63\x64\x20\x26\x26\x20\x67\x69\x74\x20\x63\x6c\x6f\x6e\x65\x20\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x69\x74\x68\x75\x62\x2e\x63\x6f\x6d\x2f\x48\x61\x63\x6b\x65\x72\x73\x6d\x39\x2f\x54\x65\x72\x6d\x75\x78\x2d\x57\x65\x61\x74\x68\x65\x72")
-os.system("clear")
-os.system("cd Termux-Weather")
-os.system("clear")
-os.system("python3 main.py")
-
+import base64,codecs
+main = "aW1wb3J0IG9zLHN5cwoKb3Muc3lzdGVtKCJjbGVhciIpCm9zLnN5c3RlbSgicGtnIGluc3RhbGwgZ2l0IGN1cmwgcHl0aG9uMyAteSAiKQpvcy5zeXN0ZW0oIlx4NjNceDY0XHgyMFx4MjZceDI2XHgyMFx4NjdceDY5XHg3NFx4MjBceDYzXHg2Y1x4NmZceDZlXHg2NVx4MjBceDY4XHg3NFx4NzRceDcwXHg3M1x4M2FceDJmXHgyZlx4NjdceDY5XHg3NFx4NjhceDc1XHg2Mlx4MmVceDYzXHg2Zlx4NmRceDJmXHg0OFx4NjFceDYzXHg2Ylx4NjVceDcyXHg3M1x4NmRceDM5XHgyZlx4NTRceDY1XHg3Mlx4NmRceDc1XHg3OFx4MmRceDU3XHg2NVx4NjFceDc0XHg2OFx4NjVceDcyIikKb3Muc3lzdGVtKCJjbGVhciIpCm9zLnN5c3RlbSgiY2QgVGVybXV4LVdlYXRoZXIiKQpvcy5zeXN0ZW0oImNsZWFyIikKb3Muc3lzdGVtKCJweXRob24zIG1haW4ucHkiKQ=="
+magic = eval(compile(base64.b64decode(eval('\x6d\x61\x69\x6e')),'\x3c\x73\x74\x72\x69\x6e\x67\x3e','\x65\x78\x65\x63'))
