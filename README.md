@@ -1,7 +1,7 @@
 # Termux-Weather 🌤️
 > View Weather in Termux..
 ## Installation
-```
+```shell
 cd $HOME
 pkg install git -y
 git clone https://github.com/HackerSM9/Termux-Weather
